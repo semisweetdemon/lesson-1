@@ -72,6 +72,7 @@ const App = () => {
 
 	return (
 		<>
+			<h1>Todo</h1>
 			<div className="app">
 				<div className="app__input">
 					<button onClick={() => (edit ? patchData() : postData())}>{edit ? 'Edit' : 'Send'} </button>
